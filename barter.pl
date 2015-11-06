@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 
-@numeros_probables = qw/1 8 4 0 7 2/;
-@todos_los_numeros = (@numeros_probables,qw/9 5 6 3/);
+@possible_numbers = qw/1 8 4 0 7 2/;
+@all_numbers = (@possible_numbers,qw/9 5 6 3/);
 
-foreach (@todos_los_numeros) {
+foreach (@all_numbers) {
   print $_ . "\n";
 }
